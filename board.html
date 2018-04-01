@@ -1,0 +1,29 @@
+<!DOCTYPE>
+
+<html>
+	<head>
+		
+		<meta name="keywords" content="Puzzle">
+		<title>Puzzleboard</title>
+
+
+		<link rel="stylesheet" href="./board.css" type="text/css">
+
+	</head>
+	<body>
+		<h1>Puzzle Board</h1>
+		<table id="mytable"></table>
+		<div>
+			<button id="generatePuzzle" onclick="generatePuzzle()" type="button">GeneratePuzzle</button>
+			<button id="reset" onclick="resetboard()" type="button">Reset</button>
+			<button id="answer" onclick="showanswer()" type="button">Answer</button>
+			<button id="autofill" onclick="autofill()" type="button">AutoFill</button>
+			<button id="+Size" onclick="addsize()" type="button">+Size</button>
+			<button id="-Size" onclick="minsize()" type="button">-Size</button>
+
+		</div>	
+		<script src="./board.js"></script>
+
+	</body>
+
+</html>
